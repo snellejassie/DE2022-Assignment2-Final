@@ -21,8 +21,8 @@ def kafka_python_producer_async(producer, msg, topic):
 
 
 if __name__ == '__main__':
-    producer = KafkaProducer(bootstrap_servers='34.79.4.238:9092')  # use your VM's external IP Here!
-    with open('C:\Users\20181980\Documents\DSBE_Y1S1\Data Engineering\Labs_GitHub\lab7\datawordcount.txt') as f:
+    producer = KafkaProducer(bootstrap_servers='34.140.66.33:9092')  # use your VM's external IP Here!
+    with open('C:\Users\20181980\Documents\DSBE_Y1S1\Data Engineering\Assignment 2 for hand in\Output_Files\datawordcount.txt') as f:
         lines = f.readlines()
 
     for line in lines:
