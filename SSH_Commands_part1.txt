@@ -1,0 +1,27 @@
+git clone https://github.com/snellejassie/DE2022-Assignment2-Final.git ;
+ls ;
+cd DE2022-Assignment2-Final/ ;
+cd installation_script/ ;
+ls ;
+sh docker.sh ;
+ls ; 
+sh docker_compose.sh ;
+ls ;
+cd ../.. ;
+ls ; 
+mkdir notebooks ;
+mkdir data ; 
+mkdir checkpoint ;
+sudo chmod 777 notebooks/ ;
+sudo chmod 777 data/ ;
+sudo chmod 777 checkpoint/ ;
+ls ;
+cd checkpoint/ ;
+pwd ;
+cd .. ;
+cd DE2022-Assignment2-Final/lab6/ ;
+ls ;
+ls -a ;
+sudo docker-compose build ;
+sudo docker-compose up -d ;
+sudo docker logs spark-driver-app
