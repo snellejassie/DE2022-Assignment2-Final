@@ -24,4 +24,21 @@ ls ;
 ls -a ;
 sudo docker-compose build ;
 sudo docker-compose up -d ;
+sudo docker logs spark-driver-app ;
+
+cd ../.. ;
+cd data ;
+mkdir activity-data ;
+sudo chmod 777 activity-data/ ;
+cd activity-data ;
+mkdir activity-data-p1 ;
+sudo chmod 777 activity-data-p1/ ;
+mkdir activity-data-p2 ;
+sudo chmod 777 activity-data-p2/ ;
+cd ../.. ;
+cd DE2022-Assignment2-Final/ ;
+git pull ;
+cd lab6 ;
+sudo docker-compose build ;
+sudo docker-compose up -d ;
 sudo docker logs spark-driver-app
