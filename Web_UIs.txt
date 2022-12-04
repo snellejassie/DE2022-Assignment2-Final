@@ -1,0 +1,5 @@
+http://VM_IP:4040/ - driver 
+http://VM_IP:8080/ - master 
+http://VM_IP:8081/ - worker 1
+http://VM_IP:8082/ - worker 2 
+IP: 34.79.193.41
